@@ -1,18 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --primary-color: #0f1b4c;
   --background-color: #0f1b4c;
 }
-* {
-  box-sizing: border-box;
-}
+
+html,
 body {
-  font-size: 1.6rem;
-  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
 /* Common */
 a {
   text-decoration: none;
@@ -319,9 +327,6 @@ a {
 .stats .content {
   max-width: 1048px;
 }
-
-.row {
-}
 .stats .info,
 .stats .img-block {
   width: 50%;
@@ -550,14 +555,3 @@ a {
   color: #7a7a7e;
   opacity: 50%;
 }
-/* .desc1,
-.desc2 {
-  display: flex;
-  justify-content: center;
-}
-.desc1 {
-  font-size: 50px;
-}
-.desc2 {
-  font-size: 5rem;
-} */
